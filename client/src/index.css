@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Roboto Slab', serif;
+}
+
+.mobile__navigation {
+  background: url('./assets/bgIMG.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 1px 1px 10px #ccc;
+}
+
+.typography__font{
+  font-family: 'Roboto Slab', serif;
+}
+
+.animation{
+  animation: text_anim 1.3s infinite ;
+}
+
+.form__container{
+  box-shadow: 1px 1px 10px #ccc;
+}
+
+@keyframes text_anim {
+  from {
+    color: #492E87;
+  } 
+  to{
+    color: #EF9595;
+  }
+}
+
+.summarizer_section{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(217,250,255,1) 0%, rgba(225,252,255,1) 47%, rgba(217,250,255,1) 100%);
+}
